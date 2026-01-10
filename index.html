@@ -31,6 +31,7 @@
             <div class="tabs">
                 <button class="tab-link active" onclick="openTab(event, 'Day1')">Friday, Jan 16</button>
                 <button class="tab-link" onclick="openTab(event, 'Day2')">Saturday, Jan 17</button>
+                <button class="tab-link" id="btn-poster-program" onclick="openTab(event, 'PosterProgram')">Full Poster Program</button>
                 <button class="tab-link" onclick="openTab(event, 'Social')">Social Event</button>
             </div>
 
@@ -104,8 +105,18 @@
                                   <ul style="list-style-type: none; padding-left: 15px; margin-top: 10px;">
                                     <li><strong>Media:</strong> Naveen, Tanaya </li>
                                   </ul>
+                                </details>
                         </td></tr>
-                        <tr><td>9:30 - 11:00</td><td> Current SAILers Poster Session</td></tr>
+                        <tr>
+                            <td>9:30 - 11:00</td>
+                            <td>
+                                Current SAILers Poster Session <br>
+                                <a href="#" onclick="document.getElementById('btn-poster-program').click(); return false;" 
+                                   style="font-size: 0.9em; color: #3498db; text-decoration: underline;">
+                                   (Click here for full detailed program)
+                                </a>
+                            </td>
+                        </tr>
                         <tr><td>11:00 - 11:20</td><td>Coffee Break</td></tr>
                         <tr><td>11:20 - 12:20</td><td>
                             <div class="session-speakers">
@@ -124,6 +135,81 @@
                 </table>
             </div>
 
+            <div id="PosterProgram" class="tab-content">
+                <h2 style="margin-bottom: 5px;">SAILers Presentation @25th Reunion</h2>
+                <p class="subtitle" style="margin-top:0; font-size: 1.1em;">Full Detailed Schedule</p>
+
+                <h3 class="poster-header">Remote Light Talk Presentation</h3>
+                <div class="poster-meta">
+                    <strong>Date:</strong> January 16 (Friday), 2026  |  
+                    <strong>Time:</strong> 2:30 pm
+                </div>
+                
+                <div class="table-responsive">
+                    <table class="poster-table">
+                        <thead>
+                            <tr>
+                                <th class="poster-col-title">Title</th>
+                                <th class="poster-col-presenter">Presenter</th>
+                                <th class="poster-col-authors">Authors</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Ghost Speakers: A Novel Attack Against Speaker Verification</td>
+                                <td>Nicholas Mehlman</td>
+                                <td>Nicholas Mehlman</td>
+                            </tr>
+                            <tr>
+                                <td>TBD</td>
+                                <td>Kaitlin Zareno</td>
+                                <td>Kaitlin Zareno</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <h3 class="poster-header">Poster Session</h3>
+                <div class="poster-meta">
+                    <strong>Date:</strong> January 17 (Saturday), 2026  |  
+                    <strong>Time:</strong> 09:40 - 11:00 am <br>
+                    <strong>Session Chair:</strong> Huang-Cheng Chou
+                </div>
+
+                <div class="table-responsive">
+                    <table class="poster-table">
+                        <thead>
+                            <tr>
+                                <th class="poster-col-id">#</th>
+                                <th class="poster-col-title">Title</th>
+                                <th class="poster-col-presenter">Presenter</th>
+                                <th class="poster-col-authors">Authors</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr><td>1</td><td>TBD</td><td>Marcus</td><td>Marcus</td></tr>
+                            <tr><td>2</td><td>TBD</td><td>Bowen</td><td>Bowen</td></tr>
+                            <tr><td>3</td><td>TBD</td><td>Emily</td><td>Emily</td></tr>
+                            <tr><td>4</td><td>TBD</td><td>Themis</td><td>Themis</td></tr>
+                            <tr><td>5</td><td>Neural Codecs as Biosignal Tokenizers</td><td>Kleanthis Avramidis</td><td>Avramidis et al.</td></tr>
+                            <tr><td>6</td><td>TBD</td><td>Aditya</td><td>Aditya</td></tr>
+                            <tr><td>7</td><td>TBD</td><td>Kait</td><td>Kait</td></tr>
+                            <tr><td>8</td><td>TBD</td><td>Jordan</td><td>Jordan</td></tr>
+                            <tr><td>9</td><td>A long-form single-speaker real-time MRI speech dataset and benchmark</td><td>Sean Foley</td><td>Foley et al.</td></tr>
+                            <tr><td>10</td><td>TBD</td><td>Anfeng</td><td>TBD</td></tr>
+                            <tr><td>11</td><td>Human-centered Speech Computing across Lifespan</td><td>Tiantian</td><td>Tiantian</td></tr>
+                            <tr><td>12</td><td>Label-in-a-Haystack Rectification</td><td>Yiorgos</td><td>Georgios Chochlakis, Peter Wu, Arjun Bedi, Marcus Ma, Kristina Lerman, Shrikanth Narayanan</td></tr>
+                            <tr><td>13</td><td>TBD</td><td>Thanathai</td><td>TBD</td></tr>
+                            <tr><td>14</td><td>TBD</td><td>Jihwan</td><td>TBD</td></tr>
+                            <tr><td>15</td><td>TBD</td><td>Xuan Shi</td><td>TBD</td></tr>
+                            <tr><td>16</td><td>TBD</td><td>Kevin Huang</td><td>TBD</td></tr>
+                            <tr><td>17</td><td>TBD</td><td>Andreas Peter Juhl Hansen, Jeppe Roden Munster</td><td>Andreas Peter Juhl Hansen, Jeppe Roden Munster</td></tr>
+                            <tr><td>18</td><td>TBD</td><td>Simon Bock Segaard</td><td>Simon Bock Segaard</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
             <div id="Social" class="tab-content">
                 <h2>Reunion Dinner</h2>
                 <a>(For SAILers and family)</a>
@@ -132,7 +218,7 @@
                         <tr><td>Date</td><td>Saturday, January 17, 2026 </td></tr>
                         <tr><td>Time</td><td>6:00 - 9:00 PM </td></tr>
                         <tr><td>Event</td><td>SAIL 25th Anniversary Celebration Dinner</td></tr>
-                        <tr><td>Venue</td><td> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3307.014578373969!2d-118.49916835800889!3d34.01783674060246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2a4c59320b009%3A0x43041bb969cc4b83!2s1212%203rd%20St%2C%20Santa%20Monica%2C%20CA%2090401!5e0!3m2!1sen!2sus!4v1767139131143!5m2!1sen!2sus" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td></tr>
+                        <tr><td>Venue</td><td> <iframe src="http://googleusercontent.com/maps.google.com/maps?q=34.0224,-118.2851&z=15&output=embed" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></td></tr>
                     </tbody>
                 </table>
             </div>
@@ -140,7 +226,7 @@
     </main>
 
     <footer>
-        <p>&copy; 2026 Signal Analysis and Interpretation Lab (SAIL). All rights reserved.</p>
+        <p>© 2026 Signal Analysis and Interpretation Lab (SAIL). All rights reserved.</p>
     </footer>
 
     <script src="script.js"></script>
