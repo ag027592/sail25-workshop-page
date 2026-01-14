@@ -32,6 +32,10 @@
         .btn-download-all:hover {
             background-color: #34495e;
         }
+        /* Style for the venue info table to make it distinct */
+        .venue-table td {
+            background-color: #f9f9f9;
+        }
     </style>
 </head>
 <body>
@@ -65,9 +69,27 @@
             <!-- DAY 1 CONTENT -->
             <div id="Day1" class="tab-content active">
                 <h2 style="margin-bottom: 5px;">Friday, January 16</h2>
-                <p style="margin-top: 0; font-style: italic; color: #555; font-size: 1.1em;">
-                <strong>Venue:</strong> MHI Suite, EEB 131
-                </p>
+                
+                <!-- Updated Venue Section with Map -->
+                <table class="schedule-table venue-table" style="margin-bottom: 30px; border-left: 5px solid #3498db;">
+                    <tbody>
+                        <tr>
+                            <td style="width: 15%; font-weight: bold;">Venue</td>
+                            <td>
+                                <strong>USC MHI Lounge (EEB 132)</strong><br>
+                                3740 McClintock Ave, Los Angeles, CA 90089
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;">Map</td>
+                            <td>
+                                <iframe src="https://maps.google.com/maps?q=3740+McClintock+Ave,+Los+Angeles,+CA+90089&t=&z=16&ie=UTF8&iwloc=&output=embed" width="100%" height="300" style="border:0; border-radius: 5px;" allowfullscreen="" loading="lazy"></iframe>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3 style="border-bottom: 2px solid #ddd; padding-bottom: 10px; margin-bottom: 15px;">Detailed Schedule</h3>
                 <table class="schedule-table">
                     <thead>
                         <tr>
@@ -131,9 +153,27 @@
             <!-- DAY 2 CONTENT -->
             <div id="Day2" class="tab-content">
                 <h2 style="margin-bottom: 5px;">Saturday, January 17</h2>
-                <p style="margin-top: 0; font-style: italic; color: #555; font-size: 1.1em;">
-                <strong>Venue:</strong> MHI Suite, EEB 131 and 132
-                </p>
+                
+                <!-- Updated Venue Section with Map -->
+                <table class="schedule-table venue-table" style="margin-bottom: 30px; border-left: 5px solid #3498db;">
+                    <tbody>
+                        <tr>
+                            <td style="width: 15%; font-weight: bold;">Venue</td>
+                            <td>
+                                <strong>USC MHI Lounge (EEB 132)</strong><br>
+                                3740 McClintock Ave, Los Angeles, CA 90089
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-weight: bold;">Map</td>
+                            <td>
+                                <iframe src="https://maps.google.com/maps?q=3740+McClintock+Ave,+Los+Angeles,+CA+90089&t=&z=16&ie=UTF8&iwloc=&output=embed" width="100%" height="300" style="border:0; border-radius: 5px;" allowfullscreen="" loading="lazy"></iframe>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h3 style="border-bottom: 2px solid #ddd; padding-bottom: 10px; margin-bottom: 15px;">Detailed Schedule</h3>
                 <table class="schedule-table">
                     <thead>
                         <tr>
