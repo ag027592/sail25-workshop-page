@@ -193,7 +193,10 @@ header h1 {
         padding: 15px 15px;
         font-size: 1em;
     }
+<<<<<<< HEAD
 }
+=======
+>>>>>>> 445588f39626c6d60238b2f5aec53b867e3a8782
 /* Container for the buttons */
 .action-bar {
     margin-top: 25px;
@@ -377,6 +380,7 @@ header h1 {
     font-weight: bold;
     font-size: 1.1em;
     font-family: monospace;
+<<<<<<< HEAD
 }
 .pdf-btn {
     display: inline-block;
@@ -407,4 +411,6 @@ header h1 {
 /* Style for the venue info table to make it distinct */
 .venue-table td {
     background-color: #f9f9f9;
+=======
+>>>>>>> 445588f39626c6d60238b2f5aec53b867e3a8782
 }
